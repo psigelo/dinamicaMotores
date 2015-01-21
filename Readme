@@ -1,0 +1,15 @@
+El objetivo de este programa es simular la dinámica de un motor a través de una planta de segundo orden tipo PID.
+
+Las aproximaciones discretas se harán de acuerdo a la sección “8.5 Digital PID-Controllers” del libro Computer Controller Sistems Theory and Design, Karl Astrom, Ed. 3.
+
+El resultado obtenido es un programa que hace el PID que representa a la planta, este programa no es ejecutable sino que es un objeto para agregar en otros códigos, está realizado con fin de mejorar la simulación de motores Ax12 así mejorar los entrenamientos virtuales que se realizan para aprendizaje de caminata con Quadratot.
+
+
+
+Instrucciones de uso:
+
+Creación del objeto;
+  > make
+
+Borrado de objeto:
+  > make clean
